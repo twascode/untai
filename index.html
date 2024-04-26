@@ -14,21 +14,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
   </head>
   <body>
+    <!-- Shadow lingkaran -->
+    <div class="circle-shadow"></div>
     <!-- Kotak -->
     <div class="kotak-hero"></div>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-transparent outfit f-24">
+    <nav class="navbar navbar-expand-lg bg-danger outfit f-24">
       <div class="container mt-4 ms-5 ">
         <a class="navbar-brand fw-bold f-24" style="margin-left: 100px;" href="#">UNTAI</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav  gap-5" style="margin-left: 500px;">
+          <div class="navbar-nav  gap-4" style="margin-left: 430px;">
             <a class="nav-link active" aria-current="page" href="#">about</a>
             <a class="nav-link active" href="#">products</a>
-            <a class="nav-link text-white" href="#">testimoni</a>
+            <a class="nav-link active" href="#">testimoni</a>
             <a class="nav-link text-white" href="#">contact</a>
+            <li class="nav-item dropdown text-white">
+              <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="bahasa">
+                english
+              </a>
+              <ul class="dropdown-menu border-0 dropdown-menu-end" style="background-color: #DDDDDD;">
+                <li><a class="dropdown-item text-dark hidden" href="#" id="en">english</a></li>
+                <li><a class="dropdown-item text-dark" href="#" id="ind">indonesia</a></li>
+            </ul>
+            
+            </li>
           </div>
         </div>
       </div>
@@ -40,7 +52,7 @@
           <div class="col-md-5 p-5 ">
             <h1 class="judul outfit">MAKE YOUR OWN <br> <span style="font-weight: bold; color: #6B4E4E;">FASHION</span></h1>
             <p class="outfit f-24">control what you want to wear
-              be unlimited</p>
+              <br>be unlimited</p>
               <div class="text-center">
                 <button class="btn custom-btn outfit">Custom Now</button>
               </div>
