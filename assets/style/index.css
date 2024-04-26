@@ -9,7 +9,7 @@ body {
 }
 
 .f-24 {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 /* Kotak Hero */
@@ -18,15 +18,35 @@ body {
     height: 500px;
     position: absolute;
     background-color: #6B5353;
-    border-radius: 0px 0px 0px 10px;
+    border-radius: 0px 0px 0px 50px;
     right: 0px;
+    z-index: -1;
 }
 
 /* Responsif untuk laptop */
 @media only screen and (min-width: 1024px) {
     .kotak-hero {
-        width: 480px; /* Lebar untuk tampilan laptop */
-        height: 600px; /* Tinggi untuk tampilan laptop */
+        width: 380px; /* Lebar untuk tampilan laptop */
+        height: 623px; /* Tinggi untuk tampilan laptop */
+    }
+    .judul {
+        font-size: 64px;  
+    }
+    .hero {
+        width: 600px;
+        border-radius: 50px;
+    }
+    .custom-btn {
+        font-size: 24px;
+        background-color: transparent;
+        border: solid 1px black;
+        border-radius: 100px;
+        width: 100%;
+        padding: 20px;
+    }
+    .custom-btn:hover {
+        background-color: #6B5353;
+        color: white;
     }
 }
 
