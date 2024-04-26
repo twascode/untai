@@ -1,0 +1,54 @@
+/* Body */
+body {
+    background-color: #DDDDDD;
+}
+
+/* Font */
+.outfit {
+    font-family: "Outfit", sans-serif;
+}
+
+.f-24 {
+    font-size: 24px;
+}
+
+/* Kotak Hero */
+.kotak-hero {
+    width: 360px;
+    height: 500px;
+    position: absolute;
+    background-color: #6B5353;
+    border-radius: 0px 0px 0px 10px;
+    right: 0px;
+}
+
+/* Responsif untuk laptop */
+@media only screen and (min-width: 1024px) {
+    .kotak-hero {
+        width: 480px; /* Lebar untuk tampilan laptop */
+        height: 600px; /* Tinggi untuk tampilan laptop */
+    }
+}
+
+/* Responsif untuk PC */
+@media only screen and (min-width: 1440px) {
+    .kotak-hero {
+        width: 360px; /* Lebar untuk tampilan PC */
+        height: 700px; /* Tinggi untuk tampilan PC */
+    }
+}
+
+/* Responsif untuk perangkat seluler */
+@media only screen and (max-width: 767px) {
+    .kotak-hero {
+        width: 90%; /* Lebar untuk tampilan pada perangkat seluler */
+        height: 400px; /* Tinggi untuk tampilan pada perangkat seluler */
+        margin: 0 auto; /* Pusatkan kotak pada perangkat seluler */
+        left: 0;
+        right: 0;
+    }
+    .outfit{
+        font-size: 20px;
+        color: black;
+    }
+}
