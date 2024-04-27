@@ -124,6 +124,10 @@ body {
         -webkit-clip-path: border-radius(20px);
         clip-path: border-radius(20px);
     }
+    .judul-why {
+        color: #6B5353;
+        font-size: 24px;
+    }
 }
 
 /* Responsif untuk PC */
