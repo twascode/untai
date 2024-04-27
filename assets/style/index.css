@@ -79,7 +79,6 @@ body {
     }
     .hero {
         width: 600px;
-        border-radius: 50px;
     }
     .custom-btn {
         font-size: 24px;
@@ -115,17 +114,26 @@ body {
         margin-left: 10px;
         font-size: 64px;
       }
+    .carousel-inner {
+        border-radius: 50px;
+        overflow: hidden;
+    }
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+        -webkit-clip-path: border-radius(20px);
+        clip-path: border-radius(20px);
+    }
 }
 
 /* Responsif untuk PC */
 @media only screen and (min-width: 1440px) {
     .kotak-hero {
-        width: 455px; /* Lebar untuk tampilan PC */
-        height: 700px; /* Tinggi untuk tampilan PC */
+        width: 455px; 
+        height: 700px; 
     }
     .hero {
         width: 600px;
-        border-radius: 50px;
     }
     .judul-patner{
         margin-top: 200px;
